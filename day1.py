@@ -55,7 +55,7 @@
 #
 # print(course[-1]) #getting chracter from last
 #
-# #getting string's from  inex (x to y)
+# #getting string's from  index (x to y)
 #
 # print(course[6:14]) #we will get the char as string from index 6 to 13 (space are aslo count as part of string
 #
@@ -81,17 +81,24 @@
 #string method
 
 
-course="Hello evEryone Welcome"
+# course="Hello evEryone Welcome "
+# name="junayed"
+# #
+# # print(len(course))#this show's the length of string
+# # print(course.upper()) #this will make all char of string in upper case but it cann't mske modify string
+# # print(course.lower()) #this will make all char of string in lower case  but it cann't mske modify string
+# #
+# # print(course.find('e'))#it will find the first occurance index of 'e'
+# # print(course.find("Welcome"))#it will show the starting index of welcome
+# print(course.replace("Welcome","bye"))#this will replace welcome as bye
 #
-# print(len(course))#this show's the length of string
-# print(course.upper()) #this will make all char of string in upper case but it cann't mske modify string
-# print(course.lower()) #this will make all char of string in lower case  but it cann't mske modify string
+# print(course.replace('H','G'))#this will replace 'H' as 'G'
 #
-# print(course.find('e'))#it will find the first occurance index of 'e'
-# print(course.find("Welcome"))#it will show the starting index of welcome
-print(course.replace("Welcome","bye"))#this will replace welcome as bye
+# print('Hello'in course)#this will return a boolean is there has the specific string or not
+# print("junayed" in course)#it will return false
+#
+# hi=f'{course}[{name}]'
+# print(hi)
+#
+# print(name.find("yed"))
 
-print(course.replace('H','G'))#this will replace 'H' as 'G'
-
-print('Hello'in course)#this will return a boolean is there has the specific string or not
-print("junayed" in course)#it will return false
