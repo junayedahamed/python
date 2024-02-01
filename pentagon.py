@@ -7,8 +7,4 @@ for i in range(5):
     turtle.left(72)
 
 
-
-
-
 turtle.done()
-
