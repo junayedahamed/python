@@ -36,18 +36,3 @@ numbers=[1,8,2,4,3,4,5]
 # print(numbers.count(45))#count function counts that a number how many times appears in the list
 # numbers.sort()#this will sort the list
 # print(numbers)
-
-# remove duplicate from a list
-val=0
-count=0
-for each in numbers:
-    if(numbers.count(each)>1):
-        for e in numbers:
-            if(e==each and count>0):
-
-                numbers.remove(each)
-            elif e==each:
-                count+=1
-        count=0
-
-print(numbers)
