@@ -43,4 +43,6 @@ print(newset)
 
 newset.update(subnew)
 newset.pop()
+
+newset.update({1})
 print(newset)

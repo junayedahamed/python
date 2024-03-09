@@ -1,0 +1,1 @@
+{"name":"Local: 9","url":"c:\\Users\\AC\\Desktop\\compittive\\py\\snikify\\9.py","tests":[{"id":1710014756242,"input":"9","output":"1\n12\n123\n1234\n12345\n123456\n1234567\n12345678\n123456789"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\AC\\Desktop\\compittive\\py\\snikify\\9.py","group":"local","local":true}
